@@ -7,7 +7,7 @@ function isSameType(value1, value2) {
     return false;
   }
 
-  return bothNaN || typeof value1 === typeof value2;
+  return  typeof value1 === typeof value2;
   
 	
 }
